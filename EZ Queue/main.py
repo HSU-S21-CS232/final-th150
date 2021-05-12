@@ -18,7 +18,7 @@ def run():
 
 
 def in_lobby_event_callback(location):
-    output_message('MATCH FOUND: press any key to restart the auto-queue')
+    output_message('MATCH FOUND: press any key to restart the EZ queue')
     input()
     accept_match()
 
@@ -29,7 +29,7 @@ def accept_match_event_callback(location):
     time.sleep(0.2)
     mouse.click()
 
-    output_message('MATCH ACCEPTED, waiting for other players')
+    output_message('MATCH ACCEPTED')
     in_lobby_template = Template('edit-masteries.jpg', 0.53)
     in_lobby_event = Event(
         in_lobby_template, in_lobby_event_callback,
@@ -38,7 +38,7 @@ def accept_match_event_callback(location):
 
 
 def accept_match():
-    output_message('start the queue go get a drink or use the bathroom, no need to stress about missing your match')
+    output_message('start the queue, EZ Queue got you covered 8)')
     accept_match_template = Template('accept-match.jpg', 0.5)
     accept_match_event = Event(
         accept_match_template, accept_match_event_callback)
