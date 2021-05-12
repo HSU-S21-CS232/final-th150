@@ -1,0 +1,11 @@
+Project Assessment
+
+Over quarantine during the pandemic I have been playing a lot of League of Legends, so I decided to make a 
+project that would be useful for the game.  I realized an annoying part of the game was that I would often 
+miss a queue because I got up and didn't click the 'accept match.'  After taking this class, I knew there 
+would be a way to get around this.
+Overall I had a lot of fun making this code that actually turned out quite well and works just as intended.
+I think after this class I can say that python is my favorite language that I have learned so far, due to its 
+versatility and ease of use.  This final project was probably my favorite of all of them only because we got to 
+choose what projects to make, and I am also going to make use of this project in the future when I play League
+of Legends.  
